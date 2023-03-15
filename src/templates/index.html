@@ -6,27 +6,30 @@
   <meta name="description" content="Free movie catalogue for you">
   <link rel="apple-touch-icon" href="./logoApp.jpg">
   <link rel="manifest" href="./app.webmanifest">
-  <link rel="icon" href="./logoApp.jpg">
+  <link rel="icon" href="/icons/LargeTile.scale-100.png">
  
   <script src="https://use.fontawesome.com/b070c8f1df.js"></script>
   <title>Fast Resto</title>
 </head>
 <body>
+    <a href="#mainContent" class="skip-link" tabindex="0">Menuju ke konten</a>
     <header class="app-bar">
         <div class="app-bar__menu">
-            <div id="hamburgerButton">☰</div>
+            <a id="hamburgerButton" style="height:50px; width:50px;">☰</a>
         </div>
         <div class="app-bar__brand">
-            <h1><a href="#/">Fast Resto Catalogue</a></h1>
+            <h1><a href="#/">Fast Resto</a></h1>
         </div>
         <nav id="navigationDrawer" class="app-bar__navigation">
             <ul>
+              <li><a href="#/">Home</a></li>
               <li><a href="#/fast-list">Fast-List</a></li>
               <li><a href="#/favorite">Favorite</a></li>
+              <li><a href="https://github.com/RichardAlvin">AboutUs</a></li>
             </ul>
         </nav>
     </header>
-    <main id="mainContent"></main>
+    <main id="mainContent" tabindex="0"></main>
     <footer>
     <p>Copyright @ 2023 - Fast Resto</p>
     </footer>

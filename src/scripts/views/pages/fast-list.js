@@ -4,8 +4,8 @@ import { createRestoItemTemplate } from '../templates/template-creator';
 const FastList = {
   async render() {
     return `
-    <div class="content">
-        <h2 class="content__heading">Now Open For Service</h2>
+    <div class="fast-list">
+        <h1 class="content__heading">Now Open For Service</h1>
         <div id="restos" class="restos">
         </div>
     </div>

@@ -1,18 +1,42 @@
 {
-    "id": "movie-catalogue-lite-pwa-1",
-    "start_url": "./index.html",
-    "name": "Movie Catalogue Lite",
-    "short_name": "Movie Lite",
-    "description": "Free Catalogue Movie for you",
-    "display": "standalone",
-    "background_color": "#FFFFFF",
-    "theme_color": "#D84315",
-    "icons": [
-      {
-        "src": "/logoApp.jpg",
-        "sizes": "72x72",
-        "type": "image/jpg",
-        "purpose": "any"
-      }
-    ]
-  }
+  "id": "fast-resto-1",
+  "start_url": "./index.html",
+  "name": "Fast Resto Lite",
+  "short_name": "FastResto",
+  "description": "Easiest Find Favorite Resto",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#D84315",
+  "icons": [
+    {
+      "src": "/icons/LargeTile.scale-100.png",
+      "sizes": "310x310",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/LargeTile.scale-125.png",
+      "sizes": "388x388",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/LargeTile.scale-150.png",
+      "sizes": "465x465",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/LargeTile.scale-200.png",
+      "sizes": "620x620",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/LargeTile.scale-400.png",
+      "sizes": "1240x1240",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
